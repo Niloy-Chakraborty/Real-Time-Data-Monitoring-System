@@ -22,7 +22,7 @@ Erlang- RabbitMQ Installation:
 
 2) Then Run and install the executable file.
 
-3)Go to https://www.rabbitmq.com/download.html and download the rabbitmq executable file.
+3) Go to https://www.rabbitmq.com/download.html and download the rabbitmq executable file.
 
 4) Now Run and Install the RabbitMQ executable
 
@@ -58,22 +58,40 @@ Directory Stucture for Data (Both For Zipped and Unzipped):
 ---------------------------
 
 data
+
   |-----node0
+  
   |       |----bytes_in
-  |       |        |------18.08.17.csv
-  |       |        |------19.08.17.csv
+  
+  |       |        |------day1.csv
+  
+  |       |        |------day2.csv
+  
   |       |        |------ etc
+  
   |       |----bytes_out
-  |       |        |------18.08.17.csv
-  |       |        |------19.02.17.csv etc`
+  
+  |       |        |------day1.csv
+  
+  |       |        |------day2.csv etc
+  
   |       |----etc
+  
   |
+  
   |-----node1
+  
   |       |----bytes_in
-  |       |        |------18.08.17.csv
-  |       |        |------19.08.17.csv
+  
+  |       |        |------day1.csv
+  
+  |       |        |------day2.csv
+  
   |       |        |------ etc
+  
   |       |----bytes_out
-  |       |        |------18.08.17.csv
-  |       |        |------19.02.17.csv etc`
+  
+  |       |        |------day1.csv
+  
+  |       |        |------day2.csv etc 
   |       |----etc 
