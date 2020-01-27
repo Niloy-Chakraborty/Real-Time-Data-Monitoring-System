@@ -12,6 +12,7 @@ After installing all the softwares (mentioned below) and packages (from requirem
 2) Run main file. It will create Json data and publish it to the Message Queue
 3) Run consumer. It will consume the data from MQ and insert the data to the InfluDB
 
+
 # SoftWare Installation Guideline:
 
 Erlang- RabbitMQ Installation: 
@@ -54,44 +55,3 @@ InFluxDB and Chronograf:
 
 7) Open chronograf in localhost:8888 and configure to see the dashboard. 
 
-Directory Stucture for Data (Both For Zipped and Unzipped): 
----------------------------
-
-data
-
-  |-----node0
-  
-  |       |----bytes_in
-  
-  |       |        |------day1.csv
-  
-  |       |        |------day2.csv
-  
-  |       |        |------ etc
-  
-  |       |----bytes_out
-  
-  |       |        |------day1.csv
-  
-  |       |        |------day2.csv etc
-  
-  |       |----etc
-  
-  |
-  
-  |-----node1
-  
-  |       |----bytes_in
-  
-  |       |        |------day1.csv
-  
-  |       |        |------day2.csv
-  
-  |       |        |------ etc
-  
-  |       |----bytes_out
-  
-  |       |        |------day1.csv
-  
-  |       |        |------day2.csv etc 
-  |       |----etc 
