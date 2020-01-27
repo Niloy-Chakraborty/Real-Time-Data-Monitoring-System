@@ -2,8 +2,14 @@
 Real-time Network Data Monitoring System using RabbitMQ , InfluxDB and Chronograf
 
 # Motivation:
-Now-a-days it is very important to monitor the data from various source (Network data, sensor data etc..) to take smart decisions based on the results. Often it becomes a hectic to make a proper pipeline where data will be autoatically flow from source to final DB, without losing it. 
+Now-a-days it has become very important to monitor the data from various sources (Network data, sensor data etc..) to take smart decisions based on the results. Often it becomes a hectic to make a proper pipeline where data will autoatically flow from source to final Database, without losing it.
+
 To resolve this problem, this repository has been built that provides a solution for end-to-end data flow pipeline via RabbitMQ and InfluxDB. 
+
+RabbitMQ is a Message Queuing Technique that enables decoupling, and also enhances the performance.The data is not lost anywhere in between.
+
+InfluxDB is a very popular DB that provides great solution or time-series data and the data can be Visualised via Chronograf in Real-Time.
+
 Here the example data is Server Data which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources also.
 
 # Guidelines:
