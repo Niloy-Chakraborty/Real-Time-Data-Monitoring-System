@@ -1,7 +1,7 @@
 # Pipeline-for-Real-Time-Data-Monitoring-System
 Real-time Time-Series Data Monitoring System using RabbitMQ , InfluxDB and Chronograf
 
-# Motivation:
+
 Now-a-days it has become very important to monitor the data from various sources (Network data, sensor data etc..) to take smart decisions based on the results. Often it becomes a hectic to make a proper pipeline where data will autoatically flow from source to final Database, without losing it.
 
 To resolve this problem, this repository has been built that provides a solution for end-to-end data flow pipeline via RabbitMQ and InfluxDB. 
