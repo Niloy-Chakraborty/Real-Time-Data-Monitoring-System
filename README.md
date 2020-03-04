@@ -4,15 +4,15 @@
 
 Now-a-days it has become very important to monitor the data from various sources (Network data, sensor data etc..) to take smart decisions based on the results. Often it becomes a hectic to make a proper pipeline where data will autoatically flow from source to final Database, without losing it.
 
-To resolve this problem, this repository has been built that provides a solution for end-to-end data flow pipeline via RabbitMQ and InfluxDB. 
+To resolve this problem, this repository has been built that provides a solution for end-to-end data flow pipeline via **RabbitMQ** and **InfluxDB**. 
 
-RabbitMQ is a Message Queuing Technique that enables decoupling, and also enhances the performance.The data is not lost anywhere in between.
+**RabbitMQ** is a *Message Queuing Technique* that enables decoupling, and also enhances the performance.The data is not lost anywhere in between.
 
-InfluxDB is a very popular DB that provides great solution or time-series data and the data can be Visualised via Chronograf in Real-Time.
+**InfluxDB** is a very popular DB that provides great solution or **time-series data** and the data can be Visualised via **Chronograf** in Real-Time.
 
 Here the example data is Server Data which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources also.
 
-# Guidelines:
+### Guidelines:
 After installing all the softwares (mentioned below) and packages (from requirements.txt), you need to do the following:
 1) Unzip the data (If you need to do so..)
 2) Run main file. It will create Json data and publish it to the Message Queue
@@ -20,9 +20,9 @@ After installing all the softwares (mentioned below) and packages (from requirem
 4) Finally you can easily monitor the data in Chronograf.
 
 
-# SoftWare Installation Guideline:
+### SoftWare Installation Guideline:
 
-Erlang- RabbitMQ Installation: 
+#### Erlang- RabbitMQ Installation: 
 -------------------------------
 
 
@@ -34,7 +34,7 @@ Erlang- RabbitMQ Installation:
 
 4) Now Run and Install the RabbitMQ executable
 
-5) In the Command Prompt, Go to the RabbitMQ Server Location and use the command below:
+5) In the Command Prompt, Go to the RabbitMQ Server Location and use the command :
    `rabbitmq-server start`
 
 6) Install the RabbitMQ Management Console
@@ -45,7 +45,7 @@ Erlang- RabbitMQ Installation:
    The default password : guest
 
 
-InFluxDB and Chronograf:
+#### InFluxDB and Chronograf:
 -------------------------
 
 1) Go to [here](https://portal.influxdata.com/downloads/) and download InfluxDB
