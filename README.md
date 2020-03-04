@@ -26,7 +26,7 @@ After installing all the softwares (mentioned below) and packages (from requirem
 -------------------------------
 
 
-1) Go to [here](https://www.erlang.org/downloads) and download the executable.
+1) Go to [here](https://www.erlang.org/downloads) and download the erlang executable.
 
 2) Then Run and install the executable file.
 
@@ -47,7 +47,9 @@ After installing all the softwares (mentioned below) and packages (from requirem
    *The default password : guest*
 
 
-#### InFluxDB and Chronograf:
+
+
+#### InFluxDB and Chronograf Installation:
 -------------------------
 
 1) Go to [here](https://portal.influxdata.com/downloads/) and download InfluxDB
