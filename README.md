@@ -26,19 +26,19 @@ Erlang- RabbitMQ Installation:
 -------------------------------
 
 
-1) Go to https://www.erlang.org/downloads and download the executable.
+1) Go to [here](https://www.erlang.org/downloads) and download the executable.
 
 2) Then Run and install the executable file.
 
-3) Go to https://www.rabbitmq.com/download.html and download the rabbitmq executable file.
+3) Go to [here](https://www.rabbitmq.com/download.html) and download the rabbitmq executable file.
 
 4) Now Run and Install the RabbitMQ executable
 
 5) In the Command Prompt, Go to the RabbitMQ Server Location and use the command below:
-   "rabbitmq-server start"
+   `rabbitmq-server start`
 
 6) Install the RabbitMQ Management Console
-   "rabbitmq-plugins.bat enable rabbitmq_management"
+   `rabbitmq-plugins.bat enable rabbitmq_management`
 
 7) Next go to localhost:15672. The RabbitMQ console will be seen. 
    The default username : guest.
@@ -48,13 +48,13 @@ Erlang- RabbitMQ Installation:
 InFluxDB and Chronograf:
 -------------------------
 
-1) Go to https://portal.influxdata.com/downloads/ and download InfluxDB
+1) Go to [here](https://portal.influxdata.com/downloads/) and download InfluxDB
 
 2) The InfluxDB Version is : 1.7.9
 
 3) Unzip the downloaded file and run influxd.exe and influx.exe respectively
 
-4) Go to https://portal.influxdata.com/downloads/ and download Chronograf.
+4) Go to [here](https://portal.influxdata.com/downloads/) and download Chronograf.
 
 5) The used Chronograf version is 1.7.14
 
