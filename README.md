@@ -15,9 +15,9 @@ Here the example data is Server Data which contains all the values like, bytes_i
 ### Guidelines:
 After installing all the softwares (mentioned below) and packages (from requirements.txt), you need to do the following:
 1) Unzip the data (If you need to do so..)
-2) Run main file. It will create Json data and publish it to the Message Queue
-3) Run consumer. It will consume the data from MQ and insert the data to the InfluDB
-4) Finally you can easily monitor the data in Chronograf.
+2) Run *main* file. It will create Json data and publish it to the Message Queue
+3) Run *consumer*. It will consume the data from MQ and insert the data to the InfluDB
+4) Finally you can easily monitor the data in *Chronograf*.
 
 
 ### SoftWare Installation Guideline:
@@ -41,8 +41,8 @@ After installing all the softwares (mentioned below) and packages (from requirem
    `rabbitmq-plugins.bat enable rabbitmq_management`
 
 7) Next go to localhost:15672. The RabbitMQ console will be seen. 
-   The default username : guest.
-   The default password : guest
+   *The default username : guest.*
+   *The default password : guest*
 
 
 #### InFluxDB and Chronograf:
@@ -50,15 +50,15 @@ After installing all the softwares (mentioned below) and packages (from requirem
 
 1) Go to [here](https://portal.influxdata.com/downloads/) and download InfluxDB
 
-2) The InfluxDB Version is : 1.7.9
+2) The InfluxDB Version is : *1.7.9*
 
 3) Unzip the downloaded file and run influxd.exe and influx.exe respectively
 
 4) Go to [here](https://portal.influxdata.com/downloads/) and download Chronograf.
 
-5) The used Chronograf version is 1.7.14
+5) The used Chronograf version is *1.7.14*
 
-6) Unfer Unzipping the file, run chronograf.exe
+6) Unfer Unzipping the file, run *chronograf.exe*
 
-7) Open chronograf in localhost:8888 and configure to see the dashboard. 
+7) Open chronograf in *localhost:8888* and configure to see the dashboard. 
 
