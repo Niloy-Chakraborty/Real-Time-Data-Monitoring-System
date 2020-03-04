@@ -1,4 +1,4 @@
-# Pipeline-for-Real-Time-Data-Monitoring-System
+# A Simple Pipeline for Real Time Data Monitoring System
 ## Real-time Time-Series Data Monitoring System using RabbitMQ , InfluxDB and Chronograf
 
 
