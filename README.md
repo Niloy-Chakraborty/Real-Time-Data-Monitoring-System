@@ -40,8 +40,10 @@ After installing all the softwares (mentioned below) and packages (from requirem
 6) Install the RabbitMQ Management Console
    `rabbitmq-plugins.bat enable rabbitmq_management`
 
-7) Next go to localhost:15672. The RabbitMQ console will be seen. 
+7) Next go to `localhost:15672`. The RabbitMQ console will be seen. 
+
    *The default username : guest.*
+   
    *The default password : guest*
 
 
@@ -60,5 +62,5 @@ After installing all the softwares (mentioned below) and packages (from requirem
 
 6) Unfer Unzipping the file, run *chronograf.exe*
 
-7) Open chronograf in *localhost:8888* and configure to see the dashboard. 
+7) Open chronograf in `localhost:8888` and configure to see the dashboard. 
 
