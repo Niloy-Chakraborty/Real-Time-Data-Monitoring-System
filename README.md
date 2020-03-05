@@ -13,9 +13,11 @@ To resolve this problem, this repository has been built that provides a solution
 **P.S.**, Here the example data is **Server Data** which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources, with little modification, with are self explanatory from the code.
 
 ### Directory Architecture
+--------------------
 [See here](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/Directory%20Architecture.txt)
 
 ### Guidelines:
+---------------------
 After installing all the softwares (mentioned below) and packages (from requirements.txt), you need to do the following:
 1) Unzip the data (If you need to do so..)
 2) Run *[main](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/main.py)* file. It will create Json data and publish it to the Message Queue
@@ -24,6 +26,7 @@ After installing all the softwares (mentioned below) and packages (from requirem
 
 
 ### SoftWare Installation Guideline:
+------------------------------------
 
 #### Erlang- RabbitMQ Installation: 
 -------------------------------
