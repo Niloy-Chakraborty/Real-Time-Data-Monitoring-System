@@ -17,8 +17,8 @@ Here the example data is Server Data which contains all the values like, bytes_i
 ### Guidelines:
 After installing all the softwares (mentioned below) and packages (from requirements.txt), you need to do the following:
 1) Unzip the data (If you need to do so..)
-2) Run *main* file. It will create Json data and publish it to the Message Queue
-3) Run *consumer*. It will consume the data from MQ and insert the data to the InfluDB
+2) Run *[main](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/main.py)* file. It will create Json data and publish it to the Message Queue
+3) Run *[consumer](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/Consumer.py)*. It will consume the data from MQ and insert the data to the InfluDB
 4) Finally you can easily monitor the data in *Chronograf*.
 
 
