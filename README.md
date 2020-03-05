@@ -14,7 +14,7 @@ To resolve this problem, this repository has been built that provides a solution
 
 ### Directory Architecture
 --------------------
-[See here](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/Directory%20Architecture.txt)
+Directory Architecture can be [found here.](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/Directory%20Architecture.txt)
 
 ### Guidelines:
 ---------------------
