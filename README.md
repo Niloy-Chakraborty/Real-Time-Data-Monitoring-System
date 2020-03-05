@@ -11,6 +11,25 @@ To resolve this problem, this repository has been built that provides a solution
 **InfluxDB** is a very popular DB that provides great solution or **time-series data** and the data can be Visualised via **Chronograf** in Real-Time.
 
 Here the example data is Server Data which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources also.
+### Directory Architecture
+`
+data
+  |-----node0
+  |       |----bytes_in
+  |       |        |------Day1.csv
+  |       |        |------Day2.csv
+  |       |        |------ etc
+  |       |----bytes_out
+  |       |        |------Day1.csv
+  |       |        |------Day2.csv etc`
+  |       |----etc
+  |
+  |-----node1
+  |       |---
+  |       |---
+  |
+  |-----etc  
+`
 
 ### Guidelines:
 After installing all the softwares (mentioned below) and packages (from requirements.txt), you need to do the following:
