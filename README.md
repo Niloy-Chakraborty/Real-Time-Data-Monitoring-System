@@ -10,7 +10,8 @@ To resolve this problem, this repository has been built that provides a solution
 
 **InfluxDB** is a very popular DB that provides great solution or **time-series data** and the data can be Visualised via **Chronograf** in Real-Time.
 
-Here the example data is Server Data which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources also.
+**P.S.**, Here the example data is **Server Data** which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources, with little modification, with are self explanatory from the code.
+
 ### Directory Architecture
 [See here](https://github.com/Niloy-Chakraborty/Real-Time-Data-Monitoring-System/blob/master/Directory%20Architecture.txt)
 
