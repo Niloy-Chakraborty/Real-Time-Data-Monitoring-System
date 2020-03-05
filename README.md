@@ -25,10 +25,10 @@ After installing all the softwares (mentioned below) and packages (from requirem
 4) Finally you can easily monitor the data in *Chronograf*.
 
 
-### SoftWare Installation Guideline:
+### SoftWare Installation Guidelines:
 ------------------------------------
 
-#### Erlang- RabbitMQ Installation: 
+#### A. Erlang- RabbitMQ Installation: 
 -------------------------------
 
 
@@ -55,7 +55,7 @@ After installing all the softwares (mentioned below) and packages (from requirem
 
 
 
-#### InFluxDB and Chronograf Installation:
+#### B. InFluxDB and Chronograf Installation:
 -------------------------
 
 1) Go to [here](https://portal.influxdata.com/downloads/) and download InfluxDB
