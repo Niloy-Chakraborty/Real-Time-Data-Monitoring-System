@@ -10,7 +10,7 @@ To resolve this problem, this repository has been built that provides a solution
 
 **RabbitMQ** is a *Message Queuing Technique* that enables decoupling, and also enhances the performance.The data is not lost anywhere in between. **InfluxDB** is a very popular DB that provides great solution or **time-series data** and the data can be Visualised via **Chronograf** in Real-Time.
 
-**P.S.**, Here the example data is **Server Data** which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources, with little modification, with are self explanatory from the code.
+**P.S.**, Here the example data is **Server Data** which contains all the values like, bytes_in , bytes_out etc. But this repository can be used for other data sources, with little modification, which are self explanatory from the code.
 
 ### Directory Architecture
 --------------------
