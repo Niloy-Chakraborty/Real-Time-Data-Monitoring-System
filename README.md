@@ -25,7 +25,7 @@ After installing all the softwares (mentioned below) and packages (from requirem
 4) Finally you can easily monitor the data in *Chronograf*.
 
 
-### SoftWare Installation Guidelines:
+### Software Installation Guidelines:
 ------------------------------------
 
 #### A. Erlang- RabbitMQ Installation: 
